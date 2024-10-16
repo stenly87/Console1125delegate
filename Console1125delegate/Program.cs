@@ -157,9 +157,9 @@ namespace Console1125delegate
                 Console.WriteLine("Четных чисел нет");
 
             // кол-во положительных, отрицательных и нулевых элементов
-            int pos =  ints.Count(s  => s > 0);
-            int neg =  ints.Count(s  => s < 0);
-            int zero = ints.Count(s  => s == 0);
+            int positive =  ints.Count(s => s > 0);
+            int negative =  ints.Count(s => s < 0);
+            int zero = ints.Count(s => s == 0);
         }
 
         static bool TestIsNotZero(int arg)
